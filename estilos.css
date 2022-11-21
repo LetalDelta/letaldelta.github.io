@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+h3 {
+    font-weight: lighter;
+}
+
+.anchoCompleto {
+    width: 100%;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.pieImg {
+    border: 1px solid white;
+    margin-bottom: 15px;
+    padding: 10px 0 10px 0;
+    text-align: center;
+}
+
+.sangria {
+    margin-left: 15px;
+}
+
+body {
+    min-height: 100vh;
+    background-color: rgb(69, 79, 69);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorPrincipal {
+    width: 70%;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 90px;
+}
+
+.columnaIzquierda {
+    width: 250px;
+    position: sticky;
+    margin-top: 15px;
+}
+
+.fixed {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+.placeHolder {
+    visibility: hidden;
+    width: 20%;
+}
+
+.columnaCentro {
+    width: 60%;
+    padding: 0 40px 20px 40px;
+    margin-top: 10px;
+
+}
+
+.columnaDerecha {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+
+}
+
+.activo {
+    color: lightsteelblue;
+}
+
+.barraCompleta {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.292);
+    height: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenidoBarra {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+}
+
+.textoBarra {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+
+.menuSuperior {
+    width: 100%;
+    background-color: rgb(56, 26, 95);
+    box-shadow: 0 0 10px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    position: fixed;
+    z-index: 10;
+}
+
+.contenidoBarra h2 {
+    margin: 0;
+}
+
+.contenidoBarra p {
+    margin: 0;
+}
+
+.iconoFlecha {
+    margin-left: 20px;
+    width: 30px;
+}
+
+.contenidoBarra a {
+    display: flex;
+    flex-direction: row;
+}
+
+.contenedorPrincipal a:hover {
+    color: #5069f3;
+}
